@@ -1,0 +1,24 @@
+<h2>Task list</h2>
+
+<div>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col" sortable="status">Status</th>
+                <th scope="col" sortable="headline">Headline</th>
+                <th scope="col">Description</th>
+                <th scope="col" sortable="dateCreated">Created</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(task of taskList(); track task.id){
+            <tr>
+                <td><i [class]="task.status|statusToIcon"></i></td>
+                <td>{{task.headline}}</td>
+                <td>{{task.description}}</td>
+                <td>{{task.dateCreated | dateToString}}</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -5,4 +5,4 @@ TODO Application - CodeSandbox
 
 Solution description
 --------------------
-Tester
+Sandbox for hands-on learning of new programming methods, techniques, code languages and so on.

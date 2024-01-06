@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+.headerbar {
+    background: #35363a;
+    color: #f1f3f4;
+    font-size: 20px;
+    padding: 10px 20px;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.headerbar a {
+    color: #f1f3f4;
+}
+
+.headerbar .title {
+    display: flex;
+    cursor: pointer;
+}
+
+.headerbar .title i {
+    font-size: 30px;
+}
+
+.headerbar .title span {
+    padding: 1px 0 0 10px;
+    font-size: 26px;
+}
+
+.headerbar .signinout {
+    font-size: 30px;
+}
